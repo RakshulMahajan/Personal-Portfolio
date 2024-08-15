@@ -3,13 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "digital": "^0.0.1",
-    "envelope": "^2.1.0",
-    "react": "^16.6.0",
-    "react-dom": "^16.6.0",
-    "react-scripts": "2.1.1",
-    "routines": "^0.3.0"
-  },
+  "cross-env": "^7.0.3",
+  "digital": "^0.0.1",
+  "envelope": "^2.1.0",
+  "react": "^16.6.0",
+  "react-dom": "^16.6.0",
+  "react-scripts": "2.1.1",
+  "routines": "^0.3.0"
+},
   "scripts": {
     "start": "cross-env NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
     "build": "cross-env NODE_ENV=production react-scripts build",
@@ -24,8 +25,6 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ],
-  "devDependencies": {
-    "cross-env": "^7.0.3"
-  }
+  ]
+  
 }
